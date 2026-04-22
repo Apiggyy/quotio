@@ -49,12 +49,12 @@ final class AtomFeedUpdateService {
 
     // MARK: - Feed URLs
 
-    private static let cliProxyFeedURL = "https://github.com/router-for-me/CLIProxyAPIPlus/releases.atom"
+    private static let cliProxyFeedURL = "https://github.com/router-for-me/CLIProxyAPI/releases.atom"
     private static let quotioFeedURL = "https://github.com/nguyenphutrong/quotio/releases.atom"
 
     // MARK: - Cache Keys
 
-    private static let cliProxyCacheKey = "atomFeedCache_cliproxy"
+    private static let cliProxyCacheKey = "atomFeedCache_cliproxy_v2"
     private static let quotioCacheKey = "atomFeedCache_quotio"
 
     // MARK: - Polling Configuration
